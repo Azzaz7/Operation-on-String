@@ -12,6 +12,7 @@
 		D68822CD205862BF003A6D22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68822CC205862BF003A6D22 /* ViewController.m */; };
 		D68822CF205862BF003A6D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68822CE205862BF003A6D22 /* Assets.xcassets */; };
 		D68822D2205862BF003A6D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68822D0205862BF003A6D22 /* Main.storyboard */; };
+		D68822DB20586304003A6D22 /* Cut.m in Sources */ = {isa = PBXBuildFile; fileRef = D68822DA20586304003A6D22 /* Cut.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		D68822CE205862BF003A6D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68822D1205862BF003A6D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D68822D3205862BF003A6D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68822D920586304003A6D22 /* Cut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cut.h; sourceTree = "<group>"; };
+		D68822DA20586304003A6D22 /* Cut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cut.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,9 @@
 		D68822B9205862BF003A6D22 = {
 			isa = PBXGroup;
 			children = (
+				D68822D920586304003A6D22 /* Cut.h */,
+				D68822DA20586304003A6D22 /* Cut.m */,
+				D68822C8205862BF003A6D22 /* Supporting Files */,
 				D68822C4205862BF003A6D22 /* String_ass4 */,
 				D68822C3205862BF003A6D22 /* Products */,
 			);
@@ -63,7 +69,6 @@
 				D68822CE205862BF003A6D22 /* Assets.xcassets */,
 				D68822D0205862BF003A6D22 /* Main.storyboard */,
 				D68822D3205862BF003A6D22 /* Info.plist */,
-				D68822C8205862BF003A6D22 /* Supporting Files */,
 			);
 			path = String_ass4;
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 				D68822C9205862BF003A6D22 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = String_ass4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68822DB20586304003A6D22 /* Cut.m in Sources */,
 				D68822CD205862BF003A6D22 /* ViewController.m in Sources */,
 				D68822CA205862BF003A6D22 /* main.m in Sources */,
 				D68822C7205862BF003A6D22 /* AppDelegate.m in Sources */,

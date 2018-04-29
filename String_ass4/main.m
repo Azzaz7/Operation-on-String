@@ -7,7 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Cut.h"
 
 int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
+    NSString *test=@"11.11.11.22";
+    NSLog(@"the res is %@",[obj cut1 : test]);
+    
+
+    return 0;
 }
